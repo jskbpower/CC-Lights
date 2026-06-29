@@ -1,6 +1,6 @@
 ## 红绿灯状态指示灯系统
 
-桌面有一个实体红绿灯（Arduino + LED模块），通过 USB 串口控制，指示 Claude Code 的工作状态。
+桌面有一个实体红绿灯，通过 USB 串口控制，指示 Claude Code 的工作状态。
 
 ### 文件
 - 全局 settings: `C:\Users\VDTesting\.claude\settings.json`
@@ -59,5 +59,5 @@ SessionEnd                 → O (关闭终端后灭灯)
     - `_is_running()` 用原生 Windows API（`OpenProcess` + `GetModuleBaseNameW`），不创建子进程
 
 ### 硬件
-- Arduino (ATmega328P-AU / Nano), 9600波特率
+- Arduino (ATmega328P-AU), 9600波特率
 - 4针共阴极红绿灯模块: D8→红灯, D9→黄灯, D10→绿灯
