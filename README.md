@@ -3,7 +3,10 @@
 桌面有一个实体红绿灯，通过 USB 串口控制，指示 Claude Code 的工作状态。
 
 ### 使用方法
-将setup_traffic_light.py和traffic_light.py放到全局.claude目录下，添加settings.json里的内容到你的settings.json文件中。修改traffic_light.py中硬件对应的串口号。告诉Claude Code已安装桌面红绿灯状态指示灯系统，运行python setup_traffic_light.py进行初始化。
+1. 将setup_traffic_light.py和traffic_light.py放到全局.claude目录下
+2. 添加settings.json里的内容到你的settings.json文件中
+3. 修改traffic_light.py中硬件对应的串口号
+4. 告诉Claude Code已安装桌面红绿灯状态指示灯系统，运行python setup_traffic_light.py进行初始化。
 
 ### 完整 Hook 配置（共 9 个）
 ```
